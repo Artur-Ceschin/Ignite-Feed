@@ -8,10 +8,10 @@
   --gray-800: #202024;
   --gray-900: #121214;
 
-  --green-300: #00B37E;
+  --green-300: #00b37e;
   --green-500: #00875f;
 
-  --red-500: #F75A68;
+  --red-500: #f75a68;
 }
 
 :focus {
@@ -20,9 +20,9 @@
 }
 
 * {
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -31,8 +31,11 @@ body {
   -webkit-font-smoothing: antialized;
 }
 
-body, input, textarea, button {
-  font-family: 'Roboto', sans-serif;
+body,
+input,
+textarea,
+button {
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 1rem;
 }

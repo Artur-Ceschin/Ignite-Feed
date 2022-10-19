@@ -1,0 +1,59 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  background: rgba(
+    0,
+    0,
+    0,
+    0.75
+  ); /* gray out the background when modal appears */
+}
+
+.modalBackground {
+  width: 100%;
+  max-width: 432px;
+  height: 100%;
+  max-height: 238px;
+  margin: 0 auto;
+  padding: 24px 32px 32px 32px;
+  position: relative;
+  top: 40%;
+  background: var(--gray-800);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.title {
+  color: var(--gray-100);
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.content {
+  color: var(--gray-300);
+  text-align: center;
+  line-height: 162.5%;
+  max-width: 240px;
+  height: 52px;
+}
+
+.modalButtons {
+}
+
+.modalButtons button {
+  width: 138px;
+  height: 48px;
+  gap: 5rem;
+}
+
+.modalButtons button.confirm {
+  color: var(--red-500);
+  background-color: var(--gray-700);
+}
